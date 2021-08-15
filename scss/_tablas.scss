@@ -1,0 +1,407 @@
+$margin:40px ;
+$padding:10px;
+$width1: 900px;
+
+
+div{
+    text-align: center;
+    color: $colorTit;
+    border:  5px double;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.padre{
+    border: $colorBorde  solid 3px;
+    background-color:  $colorbody;
+    width: $width1/2;
+    margin: $margin/2 auto;
+    padding: $padding/2;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(8,1fr);
+    grid-template-areas: 
+    "uno nueve diesisiete"
+    "dos diez diesiocho"
+    "tres once diecinueve"
+    "cuatro doce veinte"
+    "cinco trece veintiuno"
+    "seis catorce veintidos"
+    "siete quince veintitres"
+    "ocho diesiseis veinticuatro";
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+.uno{
+    grid-area: uno;
+}
+.dos{
+    grid-area: dos;
+
+}
+.tres{
+    grid-area: tres;
+} 
+.cuatro{
+    grid-area: cuatro;
+
+}
+.cinco{
+    grid-area: cinco;
+
+}
+.seis{
+    grid-area: seis;
+
+}
+.siete{
+    grid-area: siete;
+
+}
+.ocho{
+    grid-area: ocho;
+
+}
+.nueve{
+    grid-area: nueve;
+}
+.diez{
+    grid-area: diez;
+}
+.once{
+    grid-area: once;
+}
+.doce{
+    grid-area: doce;
+}
+.trece{
+    grid-area: trece;
+}
+.catorce{
+    grid-area: catorce;
+}
+.quince{
+    grid-area: quince;
+}
+.diesiseis{
+    grid-area: diesiseis;
+}
+.diesisiete{
+    grid-area: diesisiete;
+}
+.diesiocho{
+    grid-area: diesiocho;
+}
+.diesinueve{
+    grid-area: diesinueve;
+}
+.veinte{
+    grid-area: veinte;
+}
+.veintiuno{
+    grid-area: veintiuno;
+}
+.veintidos{
+    grid-area: veintidos;
+}
+.veintitres{
+    grid-area: veintitres;
+}
+.veinticuatro{
+    grid-area: veinticuatro;
+}
+div{
+    text-align: center;
+    color: $colorTit;
+    border: darkgoldenrod 5px double;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.padre2{
+    border: $colorBorde solid 3px;
+    background-color: $colorbody;
+    width: 400px;
+    margin: $margin/2 auto;
+    padding: $padding/2;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "Uno Cuatro Siete"
+    "Dos Cinco Ocho"
+    "Tres Seis Nueve";
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+}
+.uno{
+    grid-area: uno;
+}
+.dos{
+    grid-area: dos;
+
+}
+.tres{
+    grid-area: tres;
+} 
+.cuatro{
+    grid-area: cuatro;
+
+}
+.cinco{
+    grid-area: cinco;
+
+}
+.seis{
+    grid-area: seis;
+
+}
+.siete{
+    grid-area: siete;
+
+}
+.ocho{
+    grid-area: ocho;
+
+}
+.nueve{
+    grid-area: nueve;
+}
+.div{
+    text-align: center;
+    color: $colorTit;
+    border: $colorBorde 3px solid;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+.tableDos{
+    border:  $colorBorde solid 3px;
+    background-color: $colorbody;
+    width: 300px;
+    margin:  $margin/2 auto;
+    padding: $padding/2;
+    height:  320px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(8,1fr);
+    grid-template-areas: 
+    "uno seis once"
+    "dos siete doce"
+    "tres ocho trece"
+    "cuatro nueve catorce"
+    "cinco diez quince";
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+}
+.uno{
+    grid-area: uno;
+}
+.dos{
+    grid-area: dos;
+
+}
+.tres{
+    grid-area: tres;
+} 
+.cuatro{
+    grid-area: cuatro;
+
+}
+.cinco{
+    grid-area: cinco;
+
+}
+.seis{
+    grid-area: seis;
+
+}
+.siete{
+    grid-area: siete;
+
+}
+.ocho{
+    grid-area: ocho;
+
+}
+.nueve{
+    grid-area: nueve;
+}
+.diez{
+    grid-area: diez;
+}
+.once{
+    grid-area: once;
+}
+.doce{
+    grid-area: doce;
+}
+.trece{
+    grid-area: trece;
+}
+.catorce{
+    grid-area: catorce;
+}
+.quince{
+    grid-area: quince;
+}
+div{
+    text-align: center;
+    color: $colorTit;
+    border: $colorBorde 3px solid;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.padre3{
+    border:  $colorBorde solid 3px;
+    background-color:  $colorbody;
+    width: $width1/2;
+    margin: $margin/2 auto;
+    padding: $padding/2;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(8,1fr);
+    grid-template-areas: 
+    "uno nueve diesisiete"
+    "dos diez diesiocho"
+    "tres once diecinueve"
+    "cuatro doce veinte"
+    "cinco trece veintiuno"
+    "seis catorce veintidos"
+    "siete quince veintitres"
+    "ocho diesiseis veinticuatro";
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+}
+.uno{
+    grid-area: uno;
+}
+.dos{
+    grid-area: dos;
+
+}
+.tres{
+    grid-area: tres;
+} 
+.cuatro{
+    grid-area: cuatro;
+
+}
+.cinco{
+    grid-area: cinco;
+
+}
+.seis{
+    grid-area: seis;
+
+}
+.siete{
+    grid-area: siete;
+
+}
+.ocho{
+    grid-area: ocho;
+
+}
+.nueve{
+    grid-area: nueve;
+}
+.diez{
+    grid-area: diez;
+}
+.once{
+    grid-area: once;
+}
+.doce{
+    grid-area: doce;
+}
+.trece{
+    grid-area: trece;
+}
+.catorce{
+    grid-area: catorce;
+}
+.quince{
+    grid-area: quince;
+}
+.diesiseis{
+    grid-area: diesiseis;
+}
+.diesisiete{
+    grid-area: diesisiete;
+}
+.diesiocho{
+    grid-area: diesiocho;
+}
+.diesinueve{
+    grid-area: diesinueve;
+}
+.veinte{
+    grid-area: veinte;
+}
+.veintiuno{
+    grid-area: veintiuno;
+}
+.veintidos{
+    grid-area: veintidos;
+}
+.veintitres{
+    grid-area: veintitres;
+}
+.veinticuatro{
+    grid-area: veinticuatro;
+}
+
+.div{
+    text-align: center;
+    color: $colorTit;
+    border: $colorBorde 3px solid;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+.listaDos{
+    border:  $colorBorde solid 3px;
+    background-color:  $colorbody;
+    width: 300px;
+    margin: $margin/2 auto;
+    padding: $padding/2;
+    height: 205px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(8,1fr);
+    grid-template-areas: 
+    "uno cuatro siete"
+    "dos cinco ocho"
+    "tres seis nueve";
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+}
+.uno{
+    grid-area: uno;
+}
+.dos{
+    grid-area: dos;
+
+}
+.tres{
+    grid-area: tres;
+} 
+.cuatro{
+    grid-area: cuatro;
+
+}
+.cinco{
+    grid-area: cinco;
+
+}
+.seis{
+    grid-area: seis;
+
+}
+.siete{
+    grid-area: siete;
+
+}
+.ocho{
+    grid-area: ocho;
+
+}
+.nueve{
+    grid-area: nueve;
+}

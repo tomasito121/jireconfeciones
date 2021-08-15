@@ -1,0 +1,137 @@
+@import"colores";
+@import"tablas";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: $colorbody;
+}
+
+header{
+    .header__nav{
+    width: 80%;
+    background-color: $bgcolor;
+    margin: 10px auto;
+        .menu{
+            list-style: none;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-family: 'Noto Serif', serif;
+            .elementos{
+                text-transform: uppercase;
+                margin: 10px;
+                padding: 10px;
+            a{
+                text-decoration: none;
+                color: $colormenu;
+                &:hover{
+                    color: $colormenu;
+                    font-weight: bold;
+                }
+            }
+            }
+        }
+    }
+}
+.logo1{
+    border-radius: 90px;
+    width:200px;
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    color: $colorTit;
+    font-family: 'Noto Serif', serif;
+    text-transform: uppercase;  
+    display: flex;
+    justify-content: center; 
+}
+.img{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+}
+    .imgtalless{
+        width: 350px;
+        height: 300px;
+    }
+    .imgtalless:hover{
+        transform: scale(1.5, 1.5);
+    }
+.main1{
+    width: 500px;
+    margin: 20px auto;
+}
+.sec1{
+    width: 500px;
+    margin: 20px auto;
+}
+
+.formulario{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+}
+.h2contact{
+    width: 350px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: $bgcolor;
+        
+        .logo1{
+            list-style: outside;
+        }
+        .header__nav{
+        background-color: $colorbody;
+        justify-content: center;
+        height: min-content;
+        .menu{
+            width: 390px;
+            margin-right: 150px;
+           margin-left: 0px;
+        }
+        .title{
+            justify-content: center;
+            margin-left: 70%;
+        }
+    }
+    }
+}
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: $colorBorde;
+        .header__nav{
+            background-color: $colorbody;
+        }
+    }
+    .title{
+        color: $bgcolor;
+    }
+    div{
+        color: $colorMedia;
+    }
+}
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: $colorbody;
+        .header__nav{
+            background-color: $bgcolor;
+        }
+    }
+    .title{
+        color: $colorTit;
+    }
+
+}
